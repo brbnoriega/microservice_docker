@@ -30,7 +30,7 @@ createProxyMiddleware({
 app.use("/films", 
 createProxyMiddleware({
 	target:"http://films:8002",
-	changeOrigin:true
+	changeOrigin:true 
 })
 );
 app.use("/planets", 
